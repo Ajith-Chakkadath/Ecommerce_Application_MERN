@@ -6,8 +6,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "dev" : "NODE_ENV=DEVELOPMENT nodemon backend/server.js",
-    "prod" : "NODE_ENV=PRODUCTION nodemon backend/server.js"
+    "dev": "NODE_ENV=DEVELOPMENT nodemon backend/server.js",
+    "prod": "NODE_ENV=PRODUCTION nodemon backend/server.js",
+    "seeder": "node backend/seeder/seeder.js"
   },
   "author": "Ajith chakkadath",
   "license": "ISC",
